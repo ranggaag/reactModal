@@ -17,8 +17,8 @@ const ButtonCancel = ({ type, name, onClick } : ButtonCancelProps) => {
         justify-center 
         text-xs 
         text-center 
-        font-semibold 
-        text-basic 
+        font-medium
+        text-gray-800 
         border 
         border-gray-300 
         rounded-md 

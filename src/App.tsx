@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <div className="w-screen h-screen flex flex-col gap-6 items-center justify-center">
-      <p className="text-xl text-gray-800">Click here for show modal</p>
+      <p className="text-base text-gray-800">Click here to show modal</p>
       <button
         onClick={() => setShowModal(true)} 
         className="px-4 py-2 rounded-lg bg-blue-500 text-sm text-white cursor-pointer"

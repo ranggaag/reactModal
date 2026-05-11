@@ -21,9 +21,11 @@ const Modal = ({
   isOpen,
   onCancel,
   onAction,
-  title
+  title,
+  buttonActionName
 } : Modal) => {
 
+  //add id "modal-root" di index.html
   const modalRoot = document.getElementById("modal-root")
 
   useEffect(() => {
@@ -70,7 +72,7 @@ const Modal = ({
                 <Icon 
                   icon={
                     icon === "alert" ?
-                    "line-md:alert-circle" 
+                    "line-md:alert-twotone"
                     :
                     "icon-park-outline:check-one"
                   } 
@@ -83,13 +85,13 @@ const Modal = ({
                     "text-green-500"
                   }
                 />
-                <p className="text-gray-800 text-lg font-medium">
+                <p className="text-gray-800 text-lg">
                   {title}
                 </p>
               </div>
               <div className="mt-10 w-full flex gap-2 items-center justify-center">
                 <Button
-                  name='Submit'
+                  name={buttonActionName}
                   onClick={onAction}
                 />
                 <ButtonCancel
