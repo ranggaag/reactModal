@@ -11,18 +11,18 @@ Banyak modal component di luar sana terlalu kompleks atau terlalu minimal.
 
 Project ini dibuat untuk menyeimbangkan:
 
-⚡ Simplicity → mudah dipakai
-♿ Accessibility → keyboard & focus friendly
-🧩 Reusability → clean component structure
-🎨 Customizable → gampang di-style dengan Tailwind
-🔥 Key Features
-🧠 Accessible by default (Focus Trap)
-⚛️ Built with React + TypeScript
-🎨 Styled with TailwindCSS
-🪟 Portal Rendering (no z-index chaos)
-🔁 Reusable Component Architecture
-🎯 Clean API & Easy Integration
-🎭 Dynamic Icon Support (Iconify)
+* ⚡ Simplicity → mudah dipakai
+* ♿ Accessibility → keyboard & focus friendly
+* 🧩 Reusability → clean component structure
+* 🎨 Customizable → gampang di-style dengan Tailwind
+* 🔥 Key Features
+* 🧠 Accessible by default (Focus Trap)
+* ⚛️ Built with React + TypeScript
+* 🎨 Styled with TailwindCSS
+* 🪟 Portal Rendering (no z-index chaos)
+* 🔁 Reusable Component Architecture
+* 🎯 Clean API & Easy Integration
+* 🎭 Dynamic Icon Support (Iconify)
 
 ## 🧱 Tech Stack
 * React 19
