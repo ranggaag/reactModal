@@ -80,7 +80,7 @@ const Modal = ({
                   height="64"
                   className={
                     icon === "alert" ?
-                    "text-red-700"
+                    "text-red-500"
                     :
                     "text-green-500"
                   }
