@@ -69,15 +69,26 @@ function App() {
 }
 ```
 
-## 🧩 Component Design
+## 🧩 Struktur Project
 
 Project ini menggunakan pendekatan modular:
 
 ```tsx
-Modal
- ├── PageModal (layout wrapper)
- ├── Button
- └── ButtonCancel
+
+reactModal/
+├── src/
+│   ├── components/
+│   │   ├── Button
+│   │   │   ├── Button.tsx
+│   │   │   └── ButtonCancel.tsx
+│   │   └── Modal
+│   │       ├── Modal.tsx
+│   │       └── PageModal.tsx (layout wrapper)
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── package.json
+└── README.md
 ```
 
 * ➡️ Mudah dikembangkan (misalnya tambah variant: warning, info, dll)
