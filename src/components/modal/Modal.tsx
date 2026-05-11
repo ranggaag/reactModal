@@ -72,7 +72,7 @@ const Modal = ({
                 <Icon 
                   icon={
                     icon === "alert" ?
-                    "line-md:alert-twotone"
+                    "ep:warning-filled"
                     :
                     "icon-park-outline:check-one"
                   } 
@@ -85,7 +85,7 @@ const Modal = ({
                     "text-green-500"
                   }
                 />
-                <p className="text-gray-800 text-lg">
+                <p className="text-gray-800 text-base">
                   {title}
                 </p>
               </div>
