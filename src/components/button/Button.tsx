@@ -9,7 +9,7 @@ const Button = ({ onClick, name } : Button) => {
     <button
       type='button'
       onClick={onClick}
-      className='px-3 py-2 text-xs text-center font-semibold leading-normal text-white hover:shadow-md rounded-md cursor-pointer bg-blue-500 hover:bg-blue-hover'
+      className='px-6 py-3 text-sm text-center font-semibold leading-normal text-white hover:shadow-md rounded-md cursor-pointer bg-gray-700 hover:bg-white/50'
     >
       {name}
     </button>

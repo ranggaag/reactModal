@@ -6,10 +6,10 @@ const App = () => {
   const [showModal, setShowModal] = useState<boolean>(false)
 
   return (
-    <div className="w-screen h-screen flex flex-col gap-6 items-center justify-center">
+    <div className="w-screen h-screen flex flex-col gap-6 items-center justify-center bg-gray-900">
       <button
         onClick={() => setShowModal(true)} 
-        className="px-4 py-2 rounded-md hover:bg-blue-500 bg-blue-500/90 text-sm text-white font-medium cursor-pointer"
+        className="px-6 py-3 rounded-md hover:bg-white/50 bg-gray-700 text-base text-white font-medium cursor-pointer"
       >
         Open Modal
       </button>

@@ -59,7 +59,7 @@ const Modal = ({
                 {/* close button */}
                 <button
                   onClick={onCancel}
-                  className="cursor-pointer p-2 rounded-md hover:bg-gray-100"
+                  className="text-white cursor-pointer p-2 rounded-md hover:bg-gray-100/50"
                 >
                   <Icon
                     icon="mingcute:close-line"
@@ -80,12 +80,12 @@ const Modal = ({
                   height="64"
                   className={
                     icon === "alert" ?
-                    "text-red-500"
+                    "text-red-700"
                     :
                     "text-green-500"
                   }
                 />
-                <p className="text-gray-800 text-base">
+                <p className="text-white text-lg font-medium">
                   {title}
                 </p>
               </div>

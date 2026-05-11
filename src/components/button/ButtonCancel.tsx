@@ -10,20 +10,20 @@ const ButtonCancel = ({ type, name, onClick } : ButtonCancelProps) => {
     <button
       type={type}
       className="
-        px-3 
-        py-2.5 
+        px-6
+        py-3 
         flex gap-2 
         items-center 
         justify-center 
-        text-xs 
+        text-sm 
         text-center 
         font-medium
-        text-gray-800 
+        text-white
         border 
-        border-gray-300 
+        border-gray-600
         rounded-md 
         cursor-pointer
-        hover:bg-gray-100
+        hover:bg-white/50
       "
       onClick={onClick}
     >
