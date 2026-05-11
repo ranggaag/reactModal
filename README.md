@@ -84,8 +84,8 @@ reactModal/
 │   │   └── Modal
 │   │       ├── Modal.tsx
 │   │       └── PageModal.tsx (layout wrapper)
-│   ├── App.jsx
-│   └── main.jsx
+│   ├── App.tsx
+│   └── main.tsx
 ├── public/
 ├── package.json
 └── README.md
