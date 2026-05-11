@@ -1,11 +1,11 @@
-🚀 React Modal — Accessible & Modern Modal Component
+# 🚀 React Modal — Accessible & Modern Modal Component
 
 A sleek, reusable, and accessible modal component built with React + TypeScript + TailwindCSS.
 Dirancang untuk developer yang butuh modal clean, scalable, dan production-ready tanpa ribet.
 
-✨ Fokus pada UX, accessibility, dan developer experience
+* Fokus pada UX, accessibility, dan developer experience
 
-✨ Why This Project?
+## ✨ Why This Project?
 
 Banyak modal component di luar sana terlalu kompleks atau terlalu minimal.
 
@@ -23,21 +23,24 @@ Project ini dibuat untuk menyeimbangkan:
 🔁 Reusable Component Architecture
 🎯 Clean API & Easy Integration
 🎭 Dynamic Icon Support (Iconify)
-🧱 Tech Stack
-React 19
-TypeScript
-Vite
-TailwindCSS
-focus-trap-react
-Iconify
 
-⚡ Quick Start
-git clone https://github.com/ranggaag/reactModal.git
-cd reactModal
-npm install
-npm run dev
+## 🧱 Tech Stack
+* React 19
+* TypeScript
+* Vite
+* TailwindCSS
+* focus-trap-react
+* Iconify
 
-🛠️ Usage Example
+## ⚡ Quick Start
+    $ git clone https://github.com/ranggaag/reactModal.git
+    $ cd reactModal
+    $ npm install
+    $ npm run dev
+
+## 🛠️ Usage Example
+
+```tsx
 import { useState } from "react"
 import Modal from "./components/modal/Modal"
 
@@ -64,18 +67,22 @@ function App() {
     </>
   )
 }
-🧩 Component Design
+```
+
+## 🧩 Component Design
 
 Project ini menggunakan pendekatan modular:
 
+```tsx
 Modal
  ├── PageModal (layout wrapper)
  ├── Button
  └── ButtonCancel
+```
 
-➡️ Mudah dikembangkan (misalnya tambah variant: warning, info, dll)
+* ➡️ Mudah dikembangkan (misalnya tambah variant: warning, info, dll)
 
-♿ Accessibility Matters
+* ♿ Accessibility Matters
 
 Modal ini sudah mempertimbangkan:
 
@@ -89,33 +96,47 @@ Karena UI yang bagus bukan cuma soal tampilan — tapi juga usability.
 
 Karena pakai Tailwind, kamu bisa langsung tweak style:
 
+```tsx
 className="bg-red-500 hover:bg-red-600"
+```
 
 Atau extend jadi design system kamu sendiri.
 
-📈 What I Learned
+# 📈 What I Learned
 
 Project ini bukan cuma soal modal, tapi juga:
 
-Managing UI state di React
-Accessibility best practices
-Component reusability
-Clean code & folder structure
-Using portals untuk UI layering
-🚀 Future Improvements
-Animation (Framer Motion)
-Multiple modal variants
-Global modal manager (context-based)
-Publish ke npm
-Unit testing (Vitest / React Testing Library)
-🤝 Contributing
+
+* Managing UI state di React
+
+* Accessibility best practices
+
+* Component reusability
+
+* Clean code & folder structure
+
+* Using portals untuk UI layering
+
+# 🚀 Future Improvements
+
+* Animation (Framer Motion)
+
+* Multiple modal variants
+
+* Global modal manager (context-based)
+
+* Publish ke npm
+
+* Unit testing (Vitest / React Testing Library)
+
+# 🤝 Contributing
 
 Feel free untuk fork & improve project ini!
 
-⭐ Support
+# ⭐ Support
 
 Kalau project ini membantu atau kamu suka, kasih ⭐ di repo ya!
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 Rangga Abdul Gani
